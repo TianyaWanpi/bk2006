@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.classify{
+    width: 1223px;
+    height: 150px;
+    list-style: none;
+    border:1px solid #000;
+    margin-left: 153px;
+    margin-bottom: 10px;
+}
+.classify img{
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    float: left;
+    margin-left: 30px;
+}
+.unit{
+    float: right;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+.num{
+    float: right;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+.del{
+    float: right;
+    margin-right: 50px;
+    margin-top: 70px;
+}
+.classify input{
+    float: left;
+    display: block;
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.checkbox{
+    margin-left: 153px;
+    margin-bottom: 20px;
+}
+.close{
+    font-size: 10px;
+    margin: 0 auto;
+    margin-left: 1100px;
+    width: 1050px;
+    height: 50px;
+}
+.name{
+    width: 300px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.setbtn{
+    width: 1230px;
+    height: 50px;
+    margin: 0 auto;
+}
+.setbtn button{
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    color: #fff;
+    background: orange;
+    border-radius: 5px;
+    float: right;
+    border: none;
+    margin-top: 10px;
+    margin-right: 50px;
+}

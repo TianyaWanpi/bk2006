@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cover {
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, .5);
+}
+
+a:hover {
+text-decoration: none;
+}
+
+.mask {
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, .5);
+position: fixed;
+top: 0;
+left: 0;
+z-index: 1000;
+display: none;
+justify-content: center;
+align-items: center;
+}
+
+.mask>div {
+background: #fff;
+width: 500px;
+height: 100px;
+text-align: center;
+}
+.res{
+width: 450px;
+height: 500px;
+border: 1px solid gray;
+background: lightgrey;
+float: right;
+margin-right: 200px;
+margin-top: 100px;
+}
+.res h1{
+padding-left: 20px;
+color: #fff;
+}
+
+.username{
+padding-top: 20px;
+padding-left: 50px;
+}
+.username label{
+font-size: 25px;
+padding-right: 40px;
+}
+.username input{
+width: 200px;
+height: 25px;
+}
+
+.password{
+padding-top: 30px;
+padding-left: 50px;
+}
+.password label{
+font-size: 25px;
+padding-right: 66px;
+}
+.password input{
+width: 200px;
+height: 25px;
+}
+
+.pwdspan{
+padding-top: 30px;
+padding-left: 50px;
+}
+.pwdspan label{
+font-size: 25px;
+padding-right: 18px;
+}
+.pwdspan input{
+width: 200px;
+height: 25px;
+}
+
+.vcspan{
+padding-top: 30px;
+padding-left: 50px;
+}
+.vcspan label{
+font-size: 25px;
+padding-right: 40px;
+}
+.vcspan input{
+width: 100px;
+height: 25px;
+}
+
+.button{
+width: 300px;
+height: 50px;
+margin-top: 50px;
+margin-left: 100px;
+border: none;
+background: #fff;
+border-radius: 25px;
+font-size: 25px;
+}
+
+.bjtp{
+width: 1530px;
+height: 700px;
+background: url(../images/banner.jpg) no-repeat;
+margin-top: 10px;
+}

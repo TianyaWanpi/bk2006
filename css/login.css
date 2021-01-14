@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    width: 1528px;
+    height: 600px;
+    background:url(../images/dlybjt.jpg) no-repeat;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.login{
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
+    background: #fff;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.login h1{
+    padding-top: 10px;
+    padding-left: 15px;
+    color: orange;
+}
+.dlfs{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.dlfs a{
+    text-decoration: none;
+    color:#000;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+.dlfs a:active{
+   color: red;
+}
+.username{
+   margin-top: 25px;
+   padding-left: 50px;
+}
+.username label{
+   font-size: 20px;
+   font-weight: bold;
+}
+.username input{
+   width: 200px;
+   height: 25px;
+   margin-left: 20px;
+}
+.password{
+   margin-top: 25px;
+   padding-left: 50px;
+}
+.password input{
+   width: 200px;
+   height: 25px;
+   margin-left: 39px;
+}
+.password label{
+   font-size: 20px;
+   font-weight: bold;
+}
+.button{
+   width: 300px;
+   height: 40px;
+   background: red;
+   border-radius: 3px;
+   margin-top: 50px;
+   margin-left: 50px;
+   color: #fff;
+   font-size: 20px;
+   border: none;
+}
+.link{
+   float: right;
+   margin-right: 15px;
+   margin-top: 40px;
+}
+.link a{
+   text-decoration: none;
+   padding: 0 5px;
+   color: grey;
+}

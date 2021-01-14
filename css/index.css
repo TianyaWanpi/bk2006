@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+.searchTop{
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 10;
+}
+
+.container{
+    width: 1223px;
+    margin: 0 auto;
+}
+
+.nav{
+    height: 50px;
+    background: rgb(243, 102, 36);
+}
+.nav a{
+    color: #000;
+    padding-left: 30px;
+    line-height: 50px;
+}
+.nav button{
+    width: 50px;
+    height: 30px;
+    background: orange;
+    border-radius: 5px;
+    border: none;
+    float: right;
+    margin: 10px 200px;
+    color: #fff;
+    outline: none;
+}
+
+.search{
+    width: 100%;
+    height: 200px;
+}
+.search input{
+    float: left;
+    width: 500px;
+    height: 50px;
+    margin-top: 75px;
+    margin-left: 315px;
+    border: 2px solid orange;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    outline: none;
+}
+.search button{
+    float: left;
+    width: 100px;
+    height: 54px;
+    background: orange;
+    color: #fff;
+    font-size: 25px;
+    border: 2px solid orange;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 75px;
+    outline: none;
+}
+
+.classify{
+    width: 200px;
+    height: 450px;
+    border: 1px solid red;
+}
+.classify p{
+    height: 50px;
+    font-weight: bold;
+    color: #fff;
+    background: rgb(243, 102, 36);
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.classify a{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #000;
+}
+
+.loop{
+    display: flex;
+}
+.banner{
+    width: 1023px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    color: #fff;
+    right: 0;
+    top: 0;
+}
+
+a,a:active,a:hover {
+    text-decoration: none;
+    color: rgb(153, 151, 151);
+
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    width: 1200px;
+    height: 450px;
+    margin: 40px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.box>ul {
+    width: 1200px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box>ul::after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.box>ul>li {
+    width: 1200px;
+    height: 450px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box>ol {
+    height: 20px;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+.box>ol>li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 10px;
+}
+
+.box>ol>li.active {
+    background: red;
+}
+
+.box>div {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box>div>a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.story li{
+    width: 100%;
+    height: 400px;
+    border: 1px solid #000;
+}
+.story li h3{
+    height: 50px ;
+    line-height: 50px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    background: cornsilk;
+}
+.btn{
+    border: 1px solid #000;
+    background: pink;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.storeNav{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:30%;
+    right: 100px;
+    /* display: none; */
+}
+
+.storeNav>ul{
+    width: 100%;
+}
+.storeNav>ul>li{
+    width: 100%;
+    height: 50px;
+    border: 2px solid lightgray;
+    background: #eee;
+}
+.storeNav>ul>li.active{
+    color: red;
+}
+.storeNav>ul>li:hover{
+    background: red;
+    color: #fff;
+}
+
+.cross>.list{
+    width: 240px;
+    height: 400px;
+    border-right: 1px solid #000;
+    float: left;
+}
+.cross>.list img{
+    width: 100%;
+    height: 200px;
+}
+
+.cross>.list{
+    width: 240px;
+    height: 350px;
+    border-right: 1px solid #000;
+    float: left;
+}
+.cross>.list img{
+    width: 100%;
+    height: 200px;
+}
+.cross>.list h4{
+    padding: 5px 10px;
+}
+.cross>.list p{
+    padding-left: 10px;
+}
+
+.cross1>.list{
+    width: 240px;
+    height: 350px;
+    border-right: 1px solid #000;
+    float: left;
+}
+.cross1>.list img{
+    width: 100%;
+    height: 200px;
+}
+.cross1>.list h4{
+    padding: 5px 10px;
+}
+.cross1>.list p{
+    padding-left: 10px;
+}
+
+.cross2>.list{
+    width: 240px;
+    height: 350px;
+    border-right: 1px solid #000;
+    float: left;
+}
+.cross2>.list img{
+    width: 100%;
+    height: 200px;
+}
+.cross2>.list h4{
+    padding: 5px 10px;
+}
+.cross2>.list p{
+    padding-left: 10px;
+}
+
+.cross3>.list{
+    width: 240px;
+    height: 350px;
+    border-right: 1px solid #000;
+    float: left;
+}
+.cross3>.list img{
+    width: 100%;
+    height: 200px;
+}
+.cross3>.list h4{
+    padding: 5px 10px;
+}
+.cross3>.list p{
+    padding-left: 10px;
+}
+
+.cross4>.list{
+    width: 240px;
+    height: 350px;
+    border-right: 1px solid #000;
+    float: left;
+}
+.cross4>.list img{
+    width: 100%;
+    height: 200px;
+}
+.cross4>.list h4{
+    padding: 5px 10px;
+}
+.cross4>.list p{
+    padding-left: 10px;
+}
+
+.list:nth-child(5){
+    border-right: none;
+}
+
+
+
+.footer{
+    height: 100px;
+    background: #000;
+    font-size: 50px;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+}

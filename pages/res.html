@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/res.css">
+</head>
+
+<body>
+    <h1>注册页面</h1>
+    <div class="bjtp">
+        <div class="res">
+            <h1>欢迎注册</h1>
+            
+            <div class="username">
+                <label for="username">用户名:</label>
+                <input type="text" name="name" placeholder="用户名">
+                <span name="nameSpan"></span>
+            </div>
+            <div class="password">
+                <label for="password">密码:</label>
+                <input type="password" name="pwd1" placeholder="密码">
+            </div>
+            <div class="pwdspan">
+                <label for="password">确认密码:</label>
+                <input type="password" name="pwd2" placeholder="确认密码">
+                <span name="pwd2Span"></span>
+            </div>
+            <div class="vcspan">
+                <label for="password">验证码:</label>
+                <input type="text" name="vc" placeholder="验证码"> <a id="vc"></a>
+                <span name="vcSpan"></span>
+            </div>
+            <button class="button">注册</button>
+        </div>
+    </div>
+    <div class="mask">
+        <div>
+            <p>恭喜您,注册成功,5秒后跳转首页面</p>
+            <a href="../index.html">点我就直接走啦^_^ !</a>
+        </div>
+    </div>
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/tools.js"></script>
+    <script src="../js/res.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="searchTop">在我这搜索东西</div>
+    <div class="container">
+        <div class="nav">
+          <a href="./pages/res.html">注册</a>
+          <a href="./pages/login.html" name="login">登录</a>
+          <a href="JavaScript:;" name="back">退出登录</a>
+          <button name="cart">购物车</button>
+        </div>
+        <div class="search">
+            <input type="text">
+            <button>搜索</button>
+        </div>
+        <div class="loop">
+            <div class="classify">
+                <p>主题市场</p>
+                <a href="./pages/list.html?cat_one_id=珠宝首饰" role="button">珠宝首饰</a>
+                <a href="./pages/list.html?cat_one_id=智能设备" role="button">智能设备</a>
+                <a href="./pages/list.html?cat_one_id=家装建材" role="button">家装建材</a>
+                <a href="./pages/list.html?cat_one_id=钟表眼镜" role="button">钟表眼镜</a>
+                <a href="./pages/list.html?cat_one_id=皮具箱包" role="button">皮具箱包</a>
+                <a href="./pages/list.html?cat_one_id=邮币乐器" role="button">邮币乐器</a>
+                <a href="./pages/list.html?cat_one_id=手机相机" role="button">手机相机</a>
+                <a href="./pages/list.html?cat_one_id=内衣配饰" role="button">内衣配饰</a>
+                <a href="./pages/list.html?cat_one_id=童装玩具" role="button">童装玩具</a>
+                <a href="./pages/list.html?cat_one_id=大家电" role="button">大家电</a>
+                <a href="./pages/list.html?cat_one_id=其他" role="button">其他产品</a>
+            </div>
+            <div class="banner">
+                <div class="box">
+                    <ul></ul>
+                    <ol></ol>
+                    <div>
+                        <a href="javascript:;" name="l">&lt;</a>
+                        <a href="javascript:;" name="r">&gt;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="story">
+            <ul>
+                <li>
+                    <h3><a class="btn" href="./pages/list.html?cat_one_id=珠宝首饰" role="button">珠宝首饰</a></h3>
+                    <div class="cross" cat_one_id="珠宝首饰"></div>
+                </li>
+                <li>
+                    <h3><a class="btn" href="./pages/list.html?cat_one_id=智能设备"  role="button">智能设备</a></h3>
+                    <div class="cross1" cat_one_id="智能设备"></div>
+
+                </li>
+                <li>
+                    <h3><a class="btn" href="./pages/list.html?cat_one_id=家装建材" role="button">家装建材</a></h3>
+                    <div class="cross2" cat_one_id="家装建材"></div>
+
+                </li>
+                <li>
+                    <h3><a class="btn" href="./pages/list.html?cat_one_id=大家电" role="button">大家电</a></h3>
+                    <div class="cross3" cat_one_id="大家电"></div>
+
+                </li>
+                <li>
+                    <h3><a class="btn" href="./pages/list.html?cat_one_id=其他" role="button">其他产品</a></h3>
+                    <div class="cross4" cat_one_id="其他"></div>
+
+                </li>
+                <li>
+                    <h3>为你推荐</h3>
+                    <div>为你推荐内容</div>
+
+                </li>
+            </ul>
+        </div>
+        
+        <!-- 页面的侧边栏 -->
+        <div class="storeNav">
+            <ul>
+                <li name="li" class="active">珠宝首饰</li>
+                <li name="li">智能设备</li>
+                <li name="li">家装建材</li>
+                <li name="li">大家电</li>
+                <li name="li">其他产品</li>
+                <li name="li">为你推荐</li>
+                <li name="backr">返回顶部</li>
+            </ul>
+        </div>
+
+        <div class="footer">页面底部</div>
+    </div>
+    
+
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/tools.js"></script>
+    <script src="./js/cookie.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+</html>
